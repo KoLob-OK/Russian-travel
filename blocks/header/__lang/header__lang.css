@@ -1,0 +1,8 @@
+.header__lang {
+    display: flex;
+    column-gap: 18px;
+}
+
+.header__lang a:first-child{
+    text-decoration: underline;
+}

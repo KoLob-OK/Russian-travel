@@ -1,0 +1,26 @@
+.footer__copyright {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    text-align: right;
+}
+
+@media (max-width: 760px) {
+    .footer__copyright {
+        margin: 48px 0 0;
+        font-size: 14px;
+        line-height: 14px;
+        align-self: end;
+    }
+}
+
+@media (max-width: 568px) {
+    .footer__copyright {
+        margin: 48px 0 0;
+        font-size: 14px;
+        line-height: 14px;
+        align-self: start;
+    }
+}

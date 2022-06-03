@@ -1,0 +1,12 @@
+.place__description {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+}
+
+@media (max-width: 984px) {
+    .place__description {
+        row-gap: 25px;
+    }
+}

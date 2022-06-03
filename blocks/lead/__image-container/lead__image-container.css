@@ -1,0 +1,25 @@
+.lead__image-container {
+    margin: 64px 0 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1140px) {
+    .lead__image-container {
+        margin: 56px 0 0;
+    }
+}
+
+@media (max-width: 760px) {
+    .lead__image-container {
+        margin: 50px 0 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .lead__image-container {
+        margin: 40px 0 0;
+    }
+}

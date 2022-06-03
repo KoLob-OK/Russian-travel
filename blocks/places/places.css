@@ -1,0 +1,29 @@
+@import url('../place/place.css');
+
+.places {
+    margin: 0 148px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+@media (max-width: 1140px) {
+    .places {
+        margin: 0 48px;
+    }
+}
+
+@media (max-width: 984px) {
+    .places {
+        margin: 0 24px;
+        row-gap: 73px;
+    }
+}
+
+@media (max-width: 568px) {
+    .places {
+        margin: 0;
+        row-gap: 50px;
+    }
+}

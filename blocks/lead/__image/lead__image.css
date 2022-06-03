@@ -1,0 +1,6 @@
+@import url('../__image-points-layer/lead__image-points-layer.css');
+
+.lead__image {
+    object-fit: cover;
+    object-position: center;
+}
