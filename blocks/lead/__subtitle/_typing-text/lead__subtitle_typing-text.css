@@ -1,0 +1,39 @@
+/*@keyframes typing {
+  0% {width: 0;}
+  40% {width: 42ch;}
+  100% {width: 42ch;}
+
+}
+
+@keyframes caret {
+  from, to {border-color: transparent}
+  50%      {border-color: #ffffff;}
+}
+
+.lead__subtitle_typing-text {
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .1ch solid;
+  margin: 0 auto;
+  margin: 32px auto 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  align-self: center;
+  animation: typing 10s steps(42) forwards infinite,
+  caret 1s steps(1) infinite;
+}
+
+@media (min-width: 984px) {
+  .lead__subtitle {
+    max-width: 984px;
+  }
+}
+
+@media (max-width: 983px) {
+  .lead__subtitle_typing-text {
+   display: none;
+  }
+}*/
