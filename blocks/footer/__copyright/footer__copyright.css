@@ -10,7 +10,6 @@
 @media (max-width: 760px) {
     .footer__copyright {
         margin: 48px 0 0;
-        font-size: 14px;
         line-height: 14px;
         align-self: end;
     }
@@ -18,9 +17,6 @@
 
 @media (max-width: 568px) {
     .footer__copyright {
-        margin: 48px 0 0;
-        font-size: 14px;
-        line-height: 14px;
         align-self: start;
     }
 }

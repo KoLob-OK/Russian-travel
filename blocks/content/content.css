@@ -4,13 +4,13 @@
     row-gap: 92px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 984px) {
     .content {
         row-gap: 88px;
     }
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 760px)  {
     .content {
         row-gap: 64px;
     }
