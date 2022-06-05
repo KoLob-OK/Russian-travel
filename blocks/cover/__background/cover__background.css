@@ -15,6 +15,22 @@
   text-decoration: none;
   color: #ffffff;
 }
+/* см. вебинар-лайвкодинг от 02.06.22 Респонсив и адаптив*/
+.cover__background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity .3s linear;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
 
 @media (max-width: 1140px) {
   .cover__background {
