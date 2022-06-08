@@ -15,7 +15,7 @@
   text-decoration: none;
   color: #ffffff;
 }
-/* см. вебинар-лайвкодинг от 02.06.22 Респонсив и адаптив*/
+/* см. вебинар-лайвкодинг от 02.06.22 "Респонсив и адаптив"*/
 .cover__background::before {
   content: "";
   position: absolute;
